@@ -8,6 +8,6 @@
 
 // arrayDiff([1,2,2,2,3],[2]) == [1,3]
 
-function arrayDiff(a, b) {
+export function arrayDiff(a, b) {
   return a.filter((val) => !b.includes(val));
 }

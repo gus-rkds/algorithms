@@ -1,0 +1,23 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "list of algorithms",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gus-rkds/algorithms.git"
+  },
+  "author": "gustavo alviarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gus-rkds/algorithms/issues"
+  },
+  "homepage": "https://github.com/gus-rkds/algorithms#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
