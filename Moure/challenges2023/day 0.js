@@ -11,11 +11,11 @@ FÁCIL | Publicación: 26/12/22 | Resolución: 02/01/23
 
 for (let i = 1; i <= 100; i++) {
   if (i % 3 === 0 && i % 5 === 0) {
-    console.log("mul 3 y 5");
+    console.log("fizzbuzz");
   } else if (i % 5 === 0) {
-    console.log("mul 5");
+    console.log("buzz");
   } else if (i % 3 === 0) {
-    console.log("mul 3");
+    console.log("fizz");
   } else {
     console.log(i);
   }
