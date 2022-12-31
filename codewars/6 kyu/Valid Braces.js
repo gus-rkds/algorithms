@@ -14,3 +14,17 @@ Examples
 "(}"       =>  False
 "[(])"     =>  False
 "[({})](]" =>  False */
+
+function validBraces(braces) {
+  let re = /\(\)|\{\}|\[\]/;
+  return re.test(braces) ? validBraces(braces.replace(re, '')) : '' === braces;
+}
+
+// or
+
+function validBraces(braces) {
+  while (/\(\)|\{\}|\[\]/.test(braces)) {
+    braces = braces.replace(/\(\)|\{\}|\[\]/, '');
+  }
+  return braces.length > 0 ? false : true;
+}
